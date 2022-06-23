@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Ubuntu:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#bg {
+    background-image: url(images/slider1.jpg);
+    background-repeat: no-repeat;
+    height: 130vh;
+    margin-top: -10px;
+
+}
+/* menu style start */
+section.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    padding-bottom: 10px;
+}
+    
+nav a {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+nav a:hover{
+    color: blueviolet;
+}
+/* menu style end */
+
+/* home style start */
+.homedsc {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.homedsc h1 {
+    font-size: 45px;
+    color: white;
+}
+
+.homedsc p {
+    width: 650px;
+    padding-left: 25%;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.homedsc  a.btn1 {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 20px 20px;
+    background: yellowgreen;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.homedsc  a.btn1:hover{
+    background: #fff;
+    color: yellowgreen;
+}
+
+.homedsc  a.btn2 {
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    padding: 20px 20px;
+    background: none;
+    color: #fff;
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.homedsc  a.btn2:hover{
+    background: yellowgreen;
+}
+/* home style end */
+
+
+/* card style start */
+section.Homecard {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.card {
+    width: 250px;
+    text-align: center;
+    padding-left: 10%;
+    margin-top: -180px;
+}
+
+.cardimg {
+    margin-bottom: -34px;
+}
+
+.cardimg img {
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    margin-bottom: -15px;
+}
+
+.cardDsc1 {
+    padding: 40px;
+    background: rgb(144, 176, 47);
+    color: #fff;
+    border-radius: 10px;
+    padding-top: 60px;
+}
+.cardDsc2 {
+    padding: 40px;
+    background: crimson;
+    color: #fff;
+    border-radius: 10px;
+    padding-top: 60px;
+}
+.cardDsc3 {
+    padding: 40px;
+    background: rgb(91, 51, 129);
+    color: #fff;
+    border-radius: 10px;
+    padding-top: 60px;
+}
+.cardDsc4 {
+    padding: 40px;
+    background: rgb(235, 106, 203);
+    color: #fff;
+    border-radius: 10px;
+    padding-top: 60px;
+}
+
+.cardDsc1 h3 {
+    font-size: 25px;
+    position: relative;
+}
+
+.cardDsc1 h3:after {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    background: #fff;
+    width: 55px;
+    border: 1px solid #fff;
+    left: 35%;
+}
+.cardDsc2 h3 {
+    font-size: 25px;
+    position: relative;
+}
+
+.cardDsc2 h3:after {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    background: #fff;
+    width: 55px;
+    border: 1px solid #fff;
+    left: 35%;
+}
+.cardDsc3 h3 {
+    font-size: 25px;
+    position: relative;
+}
+
+.cardDsc3 h3:after {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    background: #fff;
+    width: 55px;
+    border: 1px solid #fff;
+    left: 35%;
+}
+.cardDsc4 h3 {
+    font-size: 25px;
+    position: relative;
+}
+
+.cardDsc4 h3:after {
+    content: "";
+    position: absolute;
+    bottom: -14px;
+    background: #fff;
+    width: 55px;
+    border: 1px solid #fff;
+    left: 35%;
+}
+
+/* card style end */
+
+section.about {
+    margin-top: 5%;
+    display: flex;
+}
+
+.aboutImg {
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
+.aboutImg img {
+    width: 128%;
+}
+
+.aboutDsc {
+    width: 400px;
+    padding-left: 15%;
+}
+
+.title {
+    padding-left: 45px;
+}
+
+.title h2 {
+    font-size: 40px;
+}
+
+.title p {
+    font-size: 17px;
+    color: #666;
+    line-height: 25px;
+}
+
+ul.abut-list {
+    padding-right: 27px;
+}
+
+
+li.learning-wrap {
+    display: flex;
+}
+
+.edu-icon1{
+    margin-top: 60px;
+}
+
+.edu-icon2{
+    margin-top: 60px;
+}
+
+.edu-icon3{
+    margin-top: 60px;
+}
+
+.edu-icon1 img {
+    background: #3db2d5;
+    padding: 20px 20px;
+    border-radius: 35px;
+}
+.edu-icon2 img {
+    background: #3ab64c;
+    padding: 20px 20px;
+    border-radius: 35px;
+}
+.edu-icon3 img {
+    background: #dd1146;
+    padding: 20px 20px;
+    border-radius: 35px;
+}
+
+.edu-info {
+    padding-left: 35px;
+}
+
+.edu-info h4 {
+    font-size: 25px;
+}
